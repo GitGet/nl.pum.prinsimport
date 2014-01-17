@@ -1,1 +1,0 @@
-PersonKey,ShortName,StaffType,FirstName,PassportName,Infix,SurName,Initials,Gender,Nationality,DateOfBirth,PlaceOfBirth,CountryOfBirth,MaritalStatus,Address,ZipCode,City,CountryOfResidence,Status,ContractStartDate,ContractEndDate,RegistrationDate,ReplacedBy,MainSector

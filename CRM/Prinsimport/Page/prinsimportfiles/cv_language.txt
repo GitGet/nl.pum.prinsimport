@@ -1,1 +1,0 @@
-PersonKey,SpokenLanguage,ReadingSkill,WritingSkill,SpeakingSkill
