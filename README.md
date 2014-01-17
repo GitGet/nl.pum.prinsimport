@@ -12,9 +12,9 @@ The actual processing for each page in contained in "Prinsimporthandling.inc".
 This file relies entirely on the file- and table definitions registered in "Prinsimportdefinities.inc".
 Importfiles (.csv) should be available in [-current extension-]/CRM/Prinsimport/Page/prinsimportfiles
 
-+---------------------------------------------------------------------------------------------------+
-| NOTE:                                                                                             |
-| The provided sample files only contain columnheaders. Make sure NEVER to update with actual data! |
-+---------------------------------------------------------------------------------------------------+
+
+NOTE:
+The provided sample files only contain columnheaders. Make sure NEVER to update with actual data!
+(Add *.txt to your .gitignore!)
 
 Actual conversion from these intermediate tables to civi entities is handles by extension "Migration extension PUM" by Erik Hommel.
