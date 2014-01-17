@@ -1,0 +1,1 @@
+CountryKey,ContinentpartKey,Name,ISO2,ISO3,UNCode,OmniversCode,Sponsor,MinDuration,BaseAmountLRProj,BaseAmountLRTrnBlp,Status

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/prinsread</path>
+    <page_callback>CRM_Prinsimport_Page_Prinsread</page_callback>
+    <title>Prinsread</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/prinsclear</path>
+    <page_callback>CRM_Prinsimport_Page_Prinsclear</page_callback>
+    <title>Prinsclear</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/prinsdrop</path>
+    <page_callback>CRM_Prinsimport_Page_Prinsdrop</page_callback>
+    <title>Prinsdrop</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>

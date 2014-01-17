@@ -1,0 +1,1 @@
+MainSectorKey,ClusterCode,ClusterName,MainsectorCode,MainSectorName,SC_ID
