@@ -185,6 +185,316 @@
 				'INDEX'	=> false,
 				'OTH'	=> ''
 				),
+  			Array(
+				'NAME'	=> 'ActivationDate',
+				'TYPE'	=> 'date',
+				'SIZE'	=> NULL,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'Email1',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 60,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'Email2',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 60,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PhoneCountry1',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 5,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PhoneArea1',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 6,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PhoneNumber1',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 20,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PhoneCountry2',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 5,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PhoneArea2',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 6,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PhoneNumber2',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 20,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'MobileCountry1',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 5,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'MobileArea1',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 6,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'MobileNumber1',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 20,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'MobileCountry2',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 5,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'MobileArea2',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 6,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'MobileNumber2',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 20,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'BankAccountNo',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 25,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'IBAN',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 35,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'BicSwift',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 12,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+
+			Array(
+				'NAME'	=> 'BankName',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 40,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'BankCity',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 30,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'BankCountryISOcode',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 3,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'BankAccountholderName',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 60,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'BankAccountholderAddress',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 30,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'BankAccountholderZIP',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 10,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'BankAccountholderCity',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 30,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'BankAccountholderCountry',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 30,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'GPName',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 60,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'GPAddress',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 30,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'GPZipCode',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 10,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'GPCity',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 30,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'GPCountry',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 30,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'GPTelCountry',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 5,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'GPTelArea',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 6,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'GPTelNumber',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 20,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PassportNumber',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 20,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PassportExpiration',
+				'TYPE'	=> 'date',
+				'SIZE'	=> NULL,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'HealthInsurance',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 30,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PolicyNumber',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 20,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PartnerFirstName',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 30,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PartnerInfix',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 20,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PartnerSurname',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 60,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PartnerTelephoneNumber',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 30,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PartnerMobilePhone',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 30,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'PartnerEmailAddress',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 40,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+				
 			Array(
 				'NAME'	=> 'id',
 				'TYPE'	=> 'int',
@@ -601,6 +911,40 @@
 				'TYPE'	=> 'int',
 				'SIZE'	=> 11,
 				'INDEX'	=> true,
+				'OTH'	=> ''
+				)
+		)
+	),
+	'PERSON_TITLE'			=> Array(
+		'FILE'					=> 'person_title.txt',
+		'TBL'					=> 'pum_conversie_person_title',
+		'COLS'					=> Array(
+			Array(
+				'NAME'	=> 'person_unid',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 32,
+				'INDEX'	=> true,
+				'OTH'	=> 'NOT NULL'
+				),
+			Array(
+				'NAME'	=> 'isPre',
+				'TYPE'	=> 'int',
+				'SIZE'	=> 1,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'isPost',
+				'TYPE'	=> 'int',
+				'SIZE'	=> 1,
+				'INDEX'	=> false,
+				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'title',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 15,
+				'INDEX'	=> false,
 				'OTH'	=> ''
 				)
 		)
@@ -1139,6 +1483,27 @@
 				'SIZE'	=> 32,
 				'INDEX'	=> true,
 				'OTH'	=> ''
+				),
+			Array(
+				'NAME'	=> 'continent_name',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 40,
+				'INDEX'	=> false,
+				'OTH'	=> 'NOT NULL'
+				),
+			Array(
+				'NAME'	=> 'continentpart_name',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 40,
+				'INDEX'	=> false,
+				'OTH'	=> 'NOT NULL'
+				),
+			Array(
+				'NAME'	=> 'country_name',
+				'TYPE'	=> 'varchar',
+				'SIZE'	=> 40,
+				'INDEX'	=> true,
+				'OTH'	=> 'NOT NULL'
 				),
 			Array(
 				'NAME'	=> 'name',

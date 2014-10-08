@@ -1,0 +1,1 @@
+SubSectorKey,MainSectorCode,GroupCode,GroupName,SectorCode,SectorName,SC_UNID,Status

@@ -134,10 +134,15 @@ class CRM_Prinsimport_Pages_Importhandling {
 					$line = fgets($file); // skip column headers
 					//CRM_Core_Error::Debug('HEADER LINE', $line);
 				}
+				$log=fopen(dirname(__FILE__) . '/prinsimportfiles/' . 'log_' . $specs['FILE'], "w+");
 				while (!feof($file)) {
 					$line = fgets($file);
 					if ($line!='') {
 						$sql = $this->processLine($specs, $line);
+						try {
+							fwrite($log, $sql);
+						} catch (Exception $e) {
+						}
 						//CRM_Core_Error::Debug('SQL LINE', $sql);
 						//exit();
 						//execute
@@ -152,6 +157,7 @@ class CRM_Prinsimport_Pages_Importhandling {
 					}
 				}
 				fclose($file);
+				fclose($log);
 			}
 		}
 	}
@@ -201,10 +207,20 @@ class CRM_Prinsimport_Pages_Importhandling {
 						$sqlcolnames .= ', ';
 						$sqlcolvalues .= ', ';
 					}
+					if (strpos($colval, '\\')>-1) {
+						//CRM_Core_Error::Debug('VALUE ALERT', $colval);
+						//CRM_Core_Error::Debug('POS', strpos($colval, '\\'));
+						$colval = str_ireplace('\\', '\\\\', $colval);
+					}
 					if (strpos($colval, chr(39))>-1) {
 						//CRM_Core_Error::Debug('VALUE ALERT', $colval);
 						//CRM_Core_Error::Debug('POS', strpos($colval, chr(39)));
 						$colval = str_ireplace(chr(39), '\\'.chr(39), $colval);
+					}
+					if (strpos($colval, chr(34))>-1) {
+						//CRM_Core_Error::Debug('VALUE ALERT', $colval);
+						//CRM_Core_Error::Debug('POS', strpos($colval, chr(34)));
+						$colval = str_ireplace(chr(34), '\\'.chr(34), $colval);
 					}
 					$sqlcolnames .= '`' . $colname . '`';
 					$sqlcolvalues .= '\'' . $colval . '\'';
@@ -222,8 +238,8 @@ class CRM_Prinsimport_Pages_Importhandling {
 	 * 	'[COMMA]' to ','
 	 *	'[LF]' to ''
 	 * 	'[CR]' to ''
-	 *	'[QUOTE]' to '"'
-	 *	''' to chr(39) (='\'')
+	 *	'[D-QUOTE]' to chr(34) = '\''
+	 *	'[S-QUOTE]' to chr(39) = '\"'
 	 */
 	private function decodeValue($strValue) {
 		$modValue = $strValue;
@@ -232,13 +248,20 @@ class CRM_Prinsimport_Pages_Importhandling {
 				'[COMMA]',
 				'[LF]',
 				'[CR]',
-				'[QUOTE]'
+				'[S-QUOTE]',
+				'[SQUOTE]',
+				'[D-QUOTE]',
+				'[DQUOTE]'
+				
 				);
 			$arReplace = Array(
 				',',
 				'',
 				'',
-				chr(39)
+				chr(39),
+				chr(39),
+				chr(34),
+				chr(34)
 				);
 			$modValue = str_ireplace($arFind, $arReplace, $strValue);
 		}
