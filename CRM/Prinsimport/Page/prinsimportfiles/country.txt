@@ -1,1 +1,0 @@
-CountryKey,ContinentpartKey,Name,ISO2,ISO3,UNCode,Status,EmbassyKey,ConsulateKey,OAInterval
